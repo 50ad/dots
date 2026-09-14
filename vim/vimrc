@@ -1,0 +1,58 @@
+"   =----=----=----=----=----=----=----=----=----=----=----=
+"
+"       50ad/dots@gh                     Athreya Dravida
+"       config/vim/vimrc                        [v1.0.0]
+"
+"   =----=----=----=----=----=----=----=----=----=----=----=
+"
+set nocompatible
+set relativenumber
+set linebreak
+set showmatch
+set virtualedit=block
+set termguicolors
+ 
+set hlsearch
+set smartcase
+set ignorecase
+set incsearch
+ 
+set autoindent
+set shiftwidth=4
+set smartindent
+set smarttab
+set softtabstop=4
+ 
+set undolevels=1000
+set backspace=indent,eol,start
+
+set noshowmode
+set viminfo+=n~/.config/vim/viminfo
+
+call plug#begin()
+
+Plug 'tpope/vim-sensible'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'tpope/vim-abolish'
+Plug 'junegunn/limelight.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'nanotech/jellybeans.vim'
+Plug 'tpope/vim-surround'
+Plug 'itchyny/lightline.vim'
+call plug#end()
+
+set background=dark
+colorscheme jellybeans
+
+let g:jellybeans_use_term_italics = 1
+
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ }
+
+" let g:airline_detect_spelllang='flag'
+" let g:airline_theme='jellybeans'
+

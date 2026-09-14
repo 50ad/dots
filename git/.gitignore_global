@@ -1,0 +1,35 @@
+#   =----=----=----=----=----=----=----=----=----=----=----=
+#
+#       50ad/dots@gh                     Athreya Dravida
+#       config/git/.gitignore_global            [v1.0.0]
+#
+#   =----=----=----=----=----=----=----=----=----=----=----=
+.gitignore
+*.tmp
+*.swp
+*.gpg
+*.rsa
+__pycache__/
+*.py[codz]
+*$py.class
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.spell.bad
+*.spell.txt
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Dd]ebug/x64/
+[Dd]ebugPublic/x64/
+[Rr]elease/x64/
+[Rr]eleases/x64/
+bin/x64/
+obj/x64/
+*.ignore*

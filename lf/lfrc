@@ -1,0 +1,8 @@
+set shell zsh
+set hidden true
+set preview false
+set relativenumber
+set searchmethod 'regex'
+cmd q quit
+cmd open $vim $fx
+map <enter> open

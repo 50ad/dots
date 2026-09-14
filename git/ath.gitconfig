@@ -1,0 +1,5 @@
+[init]
+        defaultBranch = main
+[user]
+        name = "<REPLACE_NAME_ATH>"
+        email = "<REPLACE_EMAIL_ATH>"

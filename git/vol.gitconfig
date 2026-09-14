@@ -1,0 +1,12 @@
+#   =----=----=----=----=----=----=----=----=----=----=----=
+#
+#       50ad/dots@gh                     Athreya Dravida
+#       config/git/vol.gitconfig                [v1.0.0]
+#
+#   =----=----=----=----=----=----=----=----=----=----=----=
+
+[init]
+        defaultBranch = a
+[user]
+        name = "<REPLACE_NAME_VOL>"
+        email = "<REPLACE_EMAIL_VOL>"

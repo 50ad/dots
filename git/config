@@ -1,0 +1,22 @@
+#   =----=----=----=----=----=----=----=----=----=----=----=
+#
+#       50ad/dots@gh                     Athreya Dravida
+#       config/git/config                       [v1.0.0]
+#
+#   =----=----=----=----=----=----=----=----=----=----=----=
+
+[core]
+        editor = vim
+        pager = moor
+        excludesfile = ~/.config/git/.gitignore_global
+[diff]
+        external = delta
+
+[IncludeIf "gitdir:~/dev/**"]
+	path = ~/.config/git/dev.gitconfig
+
+[IncludeIf "gitdir:~/vol/**"]
+	path = ~/.config/git/vol.gitconfig
+
+[IncludeIf "gitdir:~/ath/**"]
+	path = ~/.config/git/ath.gitconfig

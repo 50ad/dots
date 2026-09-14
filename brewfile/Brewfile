@@ -1,0 +1,26 @@
+#   =----=----=----=----=----=----=----=----=----=----=----=
+#
+#       50ad/dots@gh                     Athreya Dravida
+#       config/brewfile/Brewfile                [v1.0.0]
+#
+#   =----=----=----=----=----=----=----=----=----=----=----=
+
+brew "aria2" # download util
+brew "bat" # alt `cat`
+brew "eget" # download util (bin)
+brew "eza" # alt ls
+brew "fzf" # fuzzy find
+brew "git-delta" # alt diff
+brew "lf" # ranger-like file explorer
+brew "moor" # pager (alt `less`)
+brew "npm"
+brew "pipx" # global pip install
+brew "python@3.14"
+brew "vale" # check for insensitive writing
+brew "zoxide" # alt `cd`
+brew "vim"
+brew "ripgrep" # rusty `grep`
+brew "tlrc" # tldr man pages
+brew "fx" # json viewer
+brew "gum" #shell script compts
+# brew "tmux" # working on adding tmux to this setup
