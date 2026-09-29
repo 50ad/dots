@@ -10,8 +10,9 @@ startdir="$(pwd)"
 if [[ -n "$1" ]]; then
     mapfile -t arr < "$1"
 else
-    vim ~/.scripts/tmp/script_tmp01.txt
-    mapfile -t arr < "/home/vox/.scripts/tmp/script_tmp01.txt"
+    mkdir -p "~/$XDG_CACHE_HOME/scripts"
+    vim "$XDG_CACHE_HOME/scripts/tmp.txt"
+    mapfile -t arr < "$XDG_CACHE_HOME/scripts/tmp.txt"
 fi
 echo ''
 for i in "${arr[@]}"; do

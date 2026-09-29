@@ -8,15 +8,9 @@
 [core]
         editor = vim
         pager = moor
-        excludesfile = ~/.config/git/.gitignore_global
+        excludesfile = ~/.config/git/global.gitignore
 [diff]
         external = delta
 
-[IncludeIf "gitdir:~/dev/**"]
-	path = ~/.config/git/dev.gitconfig
-
-[IncludeIf "gitdir:~/vol/**"]
+[IncludeIf "gitdir:~/idx/**"]
 	path = ~/.config/git/vol.gitconfig
-
-[IncludeIf "gitdir:~/ath/**"]
-	path = ~/.config/git/ath.gitconfig

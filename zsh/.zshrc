@@ -10,9 +10,12 @@ source ~/.config/zsh/zinit.zsh # must be BEFORE `src plugins.zsh`
 source ~/.config/zsh/plugins.zsh
 source ~/.config/zsh/.aliases.zsh
 
-HISTFILE=$HOME/.config/zsh/.histfile
+HISTFILE="$HOME/.local/share/zsh/hist"
 HISTSIZE=1000
 SAVEHIST=10000
+
+autoload -Uz compinit
+compinit -d ~/.cache/zsh/.zcompdump
 
 setopt SHARE_HISTORY
 setopt HIST_IGNORE_DUPS
